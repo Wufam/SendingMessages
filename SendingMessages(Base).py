@@ -52,37 +52,32 @@ msg = body
 try_count = input('Введите колличество отправок(1-5): ')
 
 if try_count == '1':
-	smtpall()
+	for i in range(1):
+		smtpall()
 	print("Сообщение отправлено")
 	try_count = input('Введите колличество отправок(1-5) иди (0) для выхода: ')
 
 elif try_count == '2':
-	smtpall()
-	smtpall()
+	for i in range(2):
+		smtpall()
 	print("Сообщение отправлено")
 	try_count = input('Введите колличество отправок(1-5) иди (0) для выхода: ')
 
 elif try_count == '3':
-	smtpall()
-	smtpall()
-	smtpall()
+	for i in range(3):
+		smtpall()
 	print("Сообщение отправлено")
 	try_count = input('Введите колличество отправок(1-5) иди (0) для выхода: ')
 
 elif try_count == '4':
-	smtpall()
-	smtpall()
-	smtpall()
-	smtpall()
+	for i in range(4):
+		smtpall()
 	print("Сообщение отправлено")
 	try_count = input('Введите колличество отправок(1-5) иди (0) для выхода: ')
 
 elif try_count == '5':
-	smtpall()
-	smtpall()
-	smtpall()
-	smtpall()
-	smtpall()
+	for i in range(5):
+		smtpall()
 	print("Сообщение отправлено")
 	try_count = input('Введите колличество отправок(1-5) иди (0) для выхода: ')
 
